@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn1{
+            padding:3%;
+
+        }
+        .btn1:hover{
+            background-color: green;
+            color:black;
+        }
+        .in{
+            padding: 1%;
+        }
+        .in:focus{
+            color:aqua; 
+        }
+
+       
+        .link:active{
+            color:black;
+        }
+        .para::before{
+            content: "hi * ";
+        }
+        .para::after{
+            content:"* training get completed"
+        }
+        .para::first-letter{
+            color:rgb(255, 0, 0);
+        }
+        .link:visited{
+            color:red !important;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Pseudo classs</h1>
+    <input type="text" class="in">
+    <button class="btn1">click me</button>
+<a href="https://www.google.com" class="link" target="_blank">google</a>
+    <div>
+        <p class="para">
+            hello everyone this is the training session for me
+        </p>
+    </div>
+</body>
+</html>

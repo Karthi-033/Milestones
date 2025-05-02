@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>kjlhkj
+<body>
+    <h1>
+        location
+    </h1><br>
+    <button onclick="getlocation()">get location</button>
+    <p>latitude</p>
+    <p id="output"></p>
+    <p>longitude</p>
+    <p id="output1"></p>
+
+    <h1>localstorage</h1>
+    <input type="text" id="name" placeholder="entername">
+    <button onclick="local()">save</button>
+    <button onclick="get()">get name</button>
+    
+    <h3>output</h3>
+    <p id="out"></p>
+<!-- this is script fetch the location -->
+    <script>
+
+        function local()
+        {
+            const name=document.getElementById("name").value;
+            console.log(name);  
+            localStorage.setItem("name",name);
+            
+        }
+        function get()
+        {
+            const name=localStorage.getItem("name");
+            console.log(name);
+            document.getElementById("out").innerText=name;
+        }
+
+        function getlocation()
+        {
+            navigator.geolocation.getCurrentPosition(
+                (l)=>{
+                    console.log(l);
+                    const a=l.coords;
+                    document.getElementById("output").innerHTML=a.latitude;
+                    document.getElementById("output1").innerHTML=a.longitude;
+                }
+            )
+        }
+    </script>
+</body>
+</html>

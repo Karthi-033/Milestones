@@ -1,0 +1,11 @@
+HTML:
+    -> the html stands for hyper text markeup language which gives the structure for the webpage.
+    -> the structuring was done by the html elements .
+DOM:
+    ->The document object model  which  makes the html as the tree like  structure .
+    ->the dom allows the javascript to make modefication using the function.   
+ XHTML:
+    -> the XHTML stands for extensible hyper text markeup  language .
+    ->this is the strict version of HTML.
+    ->the tags should be properly closed .
+    ->the attributes must be quoted.

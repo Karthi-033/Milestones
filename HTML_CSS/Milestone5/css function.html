@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            width:calc(100% - 200px);
+            background-color:cadetblue;
+            --newcolor:pink;
+            background-color: var(--newcolor);
+            
+        }
+        p:hover{
+            /* this rotate the p tag and also translate */
+            transform:translate(100px,100px);
+            transform:rotate(345deg);    
+        }
+    </style>
+</head>
+<body>
+    <p>welcome</p>
+</body>
+</html>

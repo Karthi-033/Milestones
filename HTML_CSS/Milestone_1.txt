@@ -1,0 +1,23 @@
+Internet is the global network of computers that used to communicate with each other. It works with set of rules known as internet protocols.
+
+working of internet:
+ ->sending and receiving of data was done with the help of ip address which was unique for each devices.
+ ->domine name was used to remember the perticular site but ip address cant be remember.
+ ->DNS will convert the actual domain name into an ip address.
+ -> the information are divided into data packets.
+ ->routers will direct the data packets. 
+
+http:
+-> the http helps to enable the comunication between client and the server by request and response.
+
+hoisting:
+    ->the hosting is storing the website or application  in the server which can be accessed in the internet.
+    shared hosting -> multiple websites are hoisted in the same server.
+    vps ->the web site share the physical server but it has own portion of server.
+    dedicated hoisting-> the web site was fully controlled by the servers.
+    cloud hosting->the websites are hosted in the vritual servers.
+browsers:
+    the browser is used to retive ,view and access the content like websites from the internet .
+    working of browser:
+    Entering URL->DNS->TCP->sending request->response from server->rendering and dispalying ->closing the connection.
+    

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #id1 p{
+            color:blue;
+        }
+
+        .class1>p{
+            color:aqua;
+        }
+        .class2+p
+        {
+            color:green;
+        }
+        .class3~p{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>descendant combinators </h1>
+    <div id="id1">
+        <p>this is para one</p>
+        <p>this is para two</p>
+        <div>
+            <p>nested para</p>
+        </div>
+    </div>
+    <h1>child combinators</h1>
+    <div class="class1">
+        <p>para one</p>
+        <p>para two</p>
+        <div>
+            <p>nested para</p>
+        </div>
+    </div>
+    <h1>adjacent  combinators</h1>
+    <div class="class2">
+        <p>para one</p>
+        <p>para two</p>
+    </div>
+    <p>outer para</p>
+    <h1>subsequent sibling combinators</h1>
+    <div class="class3">
+        <p>para one</p>
+        <p>para two</p>
+    </div>
+    <p>outer para1</p>
+    <p>outer para2</p>
+    
+    
+</body>
+</html>
