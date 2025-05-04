@@ -1,0 +1,81 @@
+//SOLID principles
+//s
+const users={
+    name:"karthi",
+    age:21,
+}
+const save=()=>{
+    console.log("values are saving");
+}
+
+//o
+const animals=
+{
+    name:()=>"lion",
+    place:()=>"wild"
+}
+function send()
+{
+    return animals;
+}
+//l
+class student
+{
+    stuname()
+    {
+    console.log("students");
+    }
+}
+class dept extends student
+{
+    studept(){
+    console.log("dept");
+    }
+}
+class college extends dept
+{
+    clgname(){
+    console.log("college");
+    }
+}
+const clg=new college();
+clg.studept();
+
+//i
+
+class sendmail
+{
+    send()
+    {
+        console.log("send data");
+    }
+}
+class getdata
+{
+    getdt(){
+        console.log("recived data")
+    }
+    
+}
+//this is breaking the inter face into class 
+//d the high modules will depends on the low module and both should depend on the abstraction 
+class print
+{
+    display(msg)
+    {
+        console.log(msg);
+    }
+}
+class app
+{
+    constructor(value)
+    {
+        this.value=value;
+    }
+    printval()
+    {
+       this.value.displa("valueis printing");
+    }
+}
+
+

@@ -1,0 +1,23 @@
+Java Script:
+Milestone 1:
+
+History of js:
+	In 1995 Brendan echi was created the  java script in the Netscape company ,he too 10 days to develop this and his aim is to create the light weight programming language for form validation.
+
+ECMA Script:
+	in 1990 many browsers does not support  js .so, the Netscape given the java script to ECMA to give standard rules for all the browsers.
+
+ES1-> 1997  -> first edition was made
+ES2 -> 1998 -> minor changes made
+ES3-> 1999 -> exception handling was made
+ES4-> 2009 -> strict mode ,json,map,arrays method was included
+ES5-> 2015 -> class ,arrow function, let and const were included
+ES-> 2017 -> async and await were included
+
+
+How JavaScript and ECMA are related:
+	The java script was programing language were ECMA was rules to be followed in that language.
+
+DOM and Browser Object Model:
+ Dom stands for document object model  which forms the dom elements as tree like structure during execution . This will make the changes only in the web page .
+ BOM will make changes in the browser   like  "alert function",navigation, history.
